@@ -27,8 +27,10 @@ flowchart TD
     style Fail fill:#C62828,stroke:#B71C1C,color:#fff
     
 Alternative simpler vertical version
+
 mermaid
 flowchart TD
+
     A[1. BUILD<br/>Compile / Assemble] --> B[2. INCLUDE<br/>Add dependencies & configs]
     B --> C[3. TEST<br/>Execute tests]
     C --> D[4. VERIFY<br/>Check against requirements]
